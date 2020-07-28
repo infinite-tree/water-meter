@@ -14,3 +14,4 @@ Note that the Arduino Nano's analog comparator pins are D6 and D7. So in order t
 
 The ouput of the Hall Effect sensor can go straight to either A0 or A1. The potentiometer with a 22K inline resistor forms the top half (R1) of a voltage divider and goes to the other analog pin. The bottom half (R2) is the 100K resistor.
 
+The LED output also doubles as the debounced digital output. Or this code can be folded into another project.
